@@ -1,0 +1,24 @@
+{
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "yaml.customTags": [
+        "!upload scalar",
+        "!remove scalar",
+        "!keep scalar",
+        "!erase scalar",
+        "!jwt scalar"
+    ],
+    "yaml.schemas": {
+        "https://raw.githubusercontent.com/doanthuanthanh88/testapi6/main/schema.json": "*.yaml"
+    },
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./Nueva carpeta (2)",
+        "-p",
+        "*test.py"
+    ]
+}
